@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer:8000/eureka/,http://peer1:8001/eureka/,http://peer2:8002/eureka/
+
+
